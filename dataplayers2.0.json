@@ -1,0 +1,100 @@
+{
+    "Players": [
+        {
+            "Name": "Lionel Messi",
+            "Games": 778,
+            "Goals": 672,
+            "Assists": 304,
+            "Minutes": 63507,
+            "Goals per game": 0.864,
+            "Goals per minutes": 0.011,
+            "Assists per game": 0.391,
+            "G&A per game": 1.254,
+            "G&A per minutes": 0.015
+        },
+        {
+            "Name": "Cristiano Ronaldo",
+            "Games": 894,
+            "Goals": 674,
+            "Assists": 229,
+            "Minutes": 73044,
+            "Goals per game": 0.754,
+            "Goals per minutes": 0.009,
+            "Assists per game": 0.256,
+            "G&A per game": 1.01,
+            "G&A per minutes": 0.012
+        },
+        {
+            "Name": "Neymar",
+            "Games": 436,
+            "Goals": 262,
+            "Assists": 163,
+            "Minutes": 35569,
+            "Goals per game": 0.601,
+            "Goals per minutes": 0.007,
+            "Assists per game": 0.374,
+            "G&A per game": 0.975,
+            "G&A per minutes": 0.012
+        },
+        {
+            "Name": "Harry Kane",
+            "Games": 415,
+            "Goals": 248,
+            "Assists": 63,
+            "Minutes": 31163,
+            "Goals per game": 0.598,
+            "Goals per minutes": 0.008,
+            "Assists per game": 0.152,
+            "G&A per game": 0.749,
+            "G&A per minutes": 0.01
+        },
+        {
+            "Name": "Edinson Cavani",
+            "Games": 595,
+            "Goals": 358,
+            "Assists": 71,
+            "Minutes": 45089,
+            "Goals per game": 0.602,
+            "Goals per minutes": 0.008,
+            "Assists per game": 0.119,
+            "G&A per game": 0.721,
+            "G&A per minutes": 0.01
+        },
+        {
+            "Name": "Paulo Dybala",
+            "Games": 361,
+            "Goals": 129,
+            "Assists": 57,
+            "Minutes": 24423,
+            "Goals per game": 0.357,
+            "Goals per minutes": 0.005,
+            "Assists per game": 0.158,
+            "G&A per game": 0.515,
+            "G&A per minutes": 0.008
+        },
+        {
+            "Name": "Erling Haaland",
+            "Games": 153,
+            "Goals": 106,
+            "Assists": 28,
+            "Minutes": 9565,
+            "Goals per game": 0.693,
+            "Goals per minutes": 0.011,
+            "Assists per game": 0.183,
+            "G&A per game": 0.876,
+            "G&A per minutes": 0.014
+        },
+        {
+            "Name": "Kylian Mbapp\u00e9",
+            "Games": 234,
+            "Goals": 162,
+            "Assists": 79,
+            "Minutes": 16835,
+            "Goals per game": 0.692,
+            "Goals per minutes": 0.01,
+            "Assists per game": 0.338,
+            "G&A per game": 1.03,
+            "G&A per minutes": 0.014
+        }
+    ]
+}
