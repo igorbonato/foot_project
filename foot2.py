@@ -18,9 +18,9 @@ players = ['messi', 'cristiano', 'neymar',
            'ben yedder', 'yilmaz', 'di maria', 'tadic', 'bale',
            'kramaric', 'sancho', 'higuain', 'payet', 'luis muriel',
            'lautaro', 'insigne', 'belotti', 'zapata', 'mertens',
-           'rooney', 'coutinho', 'alexis sanchez', 'ilicic',
+           'wayne rooney', 'coutinho', 'alexis sanchez', 'ilicic',
            'milik', 'icardi', 'werner', 'raul jimenez', 'danny ings',
-           'sterling', 'aguero', 'tevez', 'firmino', 'david silva',
+           'sterling', 'aguero', 'carlos tevez', 'firmino', 'david silva',
            'huntelaar']
 
 url = "https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query="
@@ -58,6 +58,7 @@ def get_stats(urls):
         player["Minutes"] = int(
             ((minutes[1].text).replace(".", "").replace("'", "")))
         player["Goals per game"] = round(player["Goals"] / player["Games"], 3)
+        player["Goals + Assists"] = (player["Goals"] + player["Assists"])
         player["Goals per minutes"] = round(
             player["Goals"] / player["Minutes"], 3)
         player["Assists per game"] = round(
